@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #ecd9b0;
+  margin: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* #main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+} */
+
+@media (max-width: 650px) {
+  .kunstner {
+    width: 500px;
+    height: 500px;
+  }
+}
